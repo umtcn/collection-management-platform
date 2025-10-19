@@ -82,17 +82,6 @@ docker-compose logs -f app
 docker-compose down -v
 \`\`\`
 
-## 🔐 Login Credentials
-
-For testing purposes, use these credentials:
-
-**Admin Account:**
-- Email: \`admin@example.com\`
-- Password: \`admin123\`
-
-**User Account:**
-- Email: \`user@example.com\`
-- Password: \`user123\`
 
 ## 📁 Project Structure
 
