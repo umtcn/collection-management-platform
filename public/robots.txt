@@ -1,0 +1,24 @@
+# *
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes from crawling
+Disallow: /api/
+Disallow: /edit/
+
+# Allow specific pages
+Allow: /login
+Allow: /collections
+
+# Sitemap location
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 0
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

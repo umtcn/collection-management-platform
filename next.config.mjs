@@ -35,6 +35,12 @@ const nextConfig = {
         optimizePackageImports: ['lucide-react'],
     },
 
+    // Compression
+    compress: true,
+
+    // Trailing slash behavior (better for SEO consistency)
+    trailingSlash: false,
+
     // Security headers
     async headers() {
         return [
@@ -64,10 +70,26 @@ const nextConfig = {
                     {
                         key: 'Referrer-Policy',
                         value: 'origin-when-cross-origin'
+                    },
+                    {
+                        key: 'Permissions-Policy',
+                        value: 'camera=(), microphone=(), geolocation=()'
                     }
                 ]
             }
         ]
+    },
+
+    // Redirects for SEO (example: www to non-www, old URLs to new)
+    async redirects() {
+        return [
+            // Example: Redirect old paths to new paths
+            // {
+            //     source: '/old-path',
+            //     destination: '/new-path',
+            //     permanent: true,
+            // },
+        ];
     },
 }
 

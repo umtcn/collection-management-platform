@@ -13,6 +13,8 @@ A modern, enterprise-grade collection management platform built with Next.js, fe
 - **Type-Safe**: Built with TypeScript for enhanced developer experience
 - **State Management**: Efficient state management with Zustand
 - **Dockerized**: Full Docker support for easy deployment
+- **SEO Optimized**: Complete SEO optimization with meta tags, Open Graph, structured data, and sitemap
+- **PWA Ready**: Progressive Web App support with manifest and icons
 
 ## 📋 Prerequisites
 
