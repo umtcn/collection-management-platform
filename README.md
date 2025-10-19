@@ -80,8 +80,6 @@ docker-compose logs -f app
 
 # Remove all containers and volumes
 docker-compose down -v
-\`\`\`
-
 
 ## 🎨 Tech Stack
 
