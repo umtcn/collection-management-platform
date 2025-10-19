@@ -83,36 +83,6 @@ docker-compose down -v
 \`\`\`
 
 
-## 📁 Project Structure
-
-\`\`\`
-secil-front-case/
-├── app/                    # Next.js app directory
-│   ├── api/               # API routes (SSR)
-│   ├── login/             # Login page
-│   ├── collections/       # Collections list page
-│   ├── edit/              # Edit/pinning page
-│   ├── layout.tsx         # Root layout
-│   └── globals.css        # Global styles
-├── components/            # Reusable components
-│   ├── ui/               # UI components
-│   ├── layout/           # Layout components
-│   └── features/         # Feature-specific components
-├── lib/                   # Utility functions
-│   ├── utils.ts          # Helper functions
-│   └── mock-data.ts      # Mock data for development
-├── store/                 # Zustand stores
-│   ├── authStore.ts      # Authentication state
-│   ├── collectionStore.ts # Collection state
-│   ├── productStore.ts   # Product state
-│   ├── filterStore.ts    # Filter state
-│   └── uiStore.ts        # UI state (theme, view mode)
-├── types/                 # TypeScript type definitions
-├── middleware.ts          # Next.js middleware for auth
-├── Dockerfile            # Docker configuration
-└── docker-compose.yml    # Docker Compose configuration
-\`\`\`
-
 ## 🎨 Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
